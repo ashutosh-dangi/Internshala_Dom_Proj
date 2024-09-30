@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif; /* Changed to Arial for a modern look */
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Beautiful gradient background */
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+#studentName{
+    background: linear-gradient(to right, #e9e9e5, #a59f74);
+}
+
+#studentId{
+    background: linear-gradient(to right, #e9e9e5, #a59f74);
+}
+
+#emailId{
+    background: linear-gradient(to right, #e9e9e5, #a59f74);
+}
+
+#contactNo{
+    background: linear-gradient(to right, #e9e9e5, #a59f74);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 20px; /* Spacing below headings */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Slightly darker color for labels */
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 12px; /* Increased padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* More rounded corners */
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Transition for focus effect */
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#studentTable th, #studentTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#studentTable th {
+    background-color: #4CAF50; /* Green header */
+    color: white; /* White text in header */
+}
+
+#studentTable tbody tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.action-buttons button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Dynamic vertical scrollbar */
+#studentTable tbody {
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+}
